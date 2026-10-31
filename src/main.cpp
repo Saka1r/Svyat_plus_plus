@@ -24,10 +24,10 @@ int main(int argc, char* argv[]) {
     // Проверка аргументов
     if (argc < 2) {
         std::cerr << "⛪ Свят++ компилятор\n";
-        std::cerr << "Использование: " << argv[0] << " <файл.svat> [output]\n";
+        std::cerr << "Использование: " << argv[0] << " <файл.svyat> [output]\n";
         std::cerr << "\nПример:\n";
-        std::cerr << "  " << argv[0] << " example.svat\n";
-        std::cerr << "  " << argv[0] << " example.svat my_program\n";
+        std::cerr << "  " << argv[0] << " example.svyat\n";
+        std::cerr << "  " << argv[0] << " example.svyat my_program\n";
         return 1;
     }
     

@@ -2,7 +2,7 @@ cmake -S . -B build
 
 cmake --build build
 
-./build/svyat++ file.svat a
+./build/svyat++ file.svyat a
 
 rm -rf build/
 rm -rf a.asm
